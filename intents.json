@@ -1,0 +1,26 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello","hey", "hi", "good day", "what's up", "how you doing", "how is it going","greeting"],
+    "responses": ["Hello!", "Hey!", "What can I do for you?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["cya", "see you later", "Goodbye", "I am leaving", "Have a good day", "bye", "cao","see yo "],
+     "responses":["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+    },
+    {"tag": "age",
+    "patterns": ["how old", "how old is Ram","what is your age", "how old are you", "age?"],
+    "responses":["My owner Ram is 25 years old!", "25 years!"]
+    },
+    {"tag":"name",
+        "patterns":["what is your name", "what should I call you", "whats you name", "who are you?", "can you tell me your name","inroduce yourself"],
+        "responses":["You can call me Jack Farrum","I'am Jack Farrum", "I'am Jack Farrum the assistant of Ram"]
+    },
+    {"tag":"shop",
+    "patterns":["Id like to buy something","what are your products","what do you recommd?", "what are you selling","I want to purchase ", "I'am looking for something new", "I wanna try new something"],
+    "responses":["Sorry we don't sell Anything!"]
+    },
+    {"tag":"hours",
+    "patterns":["when are you open","what are you hours", "hours of opening ", "what is you open timings", " when are you functining"],
+    "responses":["Our Opeing hours are 9:00AM-5:00PM(Monday-Friday)", "Visit us form (Monday-Friday) in between 9:00AM to 5:00PM"]
+    }
+]}
